@@ -1,0 +1,100 @@
+<div *tdLoading="'node'">
+  <form *ngIf="node" #form="ngForm" (ngSubmit)="save()">
+    <md-card>
+      <md-card-header>Edit TCP Node</md-card-header>
+      <md-card-content>
+        <md-input-container>
+          <input name="customer" mdInput placeholder="Node Name" [(ngModel)]="node.name" required #name="ngModel">
+          <md-error *ngIf="name.touched && name.invalid">
+            Name is required
+          </md-error>
+        </md-input-container>
+
+        <md-input-container>
+          <input name="SyncRetries" mdInput type="number" placeholder="Sync Retries (secs)"  [(ngModel)]="node.SyncRetries" TcpSyncRetries required #SyncRetries="ngModel">
+          <md-error *ngIf="SyncRetries.errors">
+            {{ SyncRetries.errors.Tcp.message }}
+          </md-error>          
+        </md-input-container>
+
+        <md-input-container>
+          <input name="SyncackRetries" mdInput type="number" placeholder="Sync Ack Retries (secs)"  [(ngModel)]="node.SyncackRetries" TcpSyncackRetries required #SyncackRetries="ngModel">
+          <md-error *ngIf="SyncackRetries.errors">
+            {{ SyncackRetries.errors.Tcp.message }}
+          </md-error>
+        </md-input-container>
+
+
+        <md-input-container>
+          <input name="KeepaliveTime" mdInput type="number" placeholder="Keepalive Time (hours)"  [(ngModel)]="node.KeepaliveTime" TcpKeepaliveTime required #KeepaliveTime="ngModel">
+          <md-error *ngIf="KeepaliveTime.errors">
+            {{ KeepaliveTime.errors.Tcp.message }}
+          </md-error>
+        </md-input-container>  
+
+        <md-input-container>
+          <input name="KeepaliveProbes" mdInput type="number" placeholder="Keepalive Probes"  [(ngModel)]="node.KeepaliveProbes" TcpKeepaliveProbes required #KeepaliveProbes="ngModel">
+          <md-error *ngIf="KeepaliveProbes.errors">
+            {{ KeepaliveProbes.errors.Tcp.message }}
+          </md-error>
+        </md-input-container>  
+
+        <md-input-container>
+          <input name="KeepaliveInterval" mdInput type="number" placeholder="Keepalive Interval (mins)"  [(ngModel)]="node.KeepaliveInterval" TcpKeepaliveInterval required #KeepaliveInterval="ngModel">
+          <md-error *ngIf="KeepaliveInterval.errors">
+            {{ KeepaliveInterval.errors.Tcp.message }}
+          </md-error>
+        </md-input-container>  
+
+        <md-input-container>
+          <input name="Retries1" mdInput type="number" placeholder="Retries 1"  [(ngModel)]="node.Retries1" TcpRetries1 required #Retries1="ngModel">
+          <md-error *ngIf="Retries1.errors">
+            {{ Retries1.errors.Tcp.message }}
+          </md-error>
+        </md-input-container>
+
+        <md-input-container>
+          <input name="Retries2" mdInput type="number" placeholder="Retries 2"  [(ngModel)]="node.Retries2" TcpRetries2 required #Retries2="ngModel">
+          <md-error *ngIf="Retries2.errors">
+            {{ Retries2.errors.Tcp.message }}
+          </md-error>
+        </md-input-container>
+
+        <md-input-container>
+          <input name="OrphanRetries" mdInput type="number" placeholder="Orphan Retries"  [(ngModel)]="node.OrphanRetries" TcpOrphanRetries required #OrphanRetries="ngModel">
+          <md-error *ngIf="OrphanRetries.errors">
+            {{ OrphanRetries.errors.Tcp.message }}
+          </md-error>
+        </md-input-container>
+
+        <md-input-container>
+          <input name="FinTimeout" mdInput type="number" placeholder="FIN Timeout (secs)"  [(ngModel)]="node.FinTimeout" TcpFinTimeout required #FinTimeout="ngModel">
+          <md-error *ngIf="FinTimeout.errors">
+            {{ FinTimeout.errors.Tcp.message }}
+          </md-error>
+        </md-input-container>
+
+        <!--  From angular-in-action/invoice project, use as the reference code
+        <md-input-container>
+          <input name="email" mdInput type="email" placeholder="Email" [(ngModel)]="node.email" required #email="ngModel">
+          <md-error *ngIf="email.touched && email.invalid">
+            A valid email is required
+          </md-error>
+        </md-input-container>        
+        <md-input-container>
+          <input name="phone" mdInput type="tel" placeholder="Phone" [(ngModel)]="node.phone" required phone #phone="ngModel">
+          <md-error *ngIf="phone.touched && phone.errors?.phone">
+            Not a valid phone number
+          </md-error>
+        </md-input-container>
+        --> 
+
+      </md-card-content>
+      <md-card-actions>
+        <button type="button" md-button (click)="delete()" *ngIf="node.id">Delete</button>
+        <button type="button" md-button (click)="cancel()">Cancel</button>
+        <button type="submit" md-raised-button color="primary" [disabled]="form.invalid">Save</button>
+      </md-card-actions>
+    </md-card>
+  </form>
+</div>

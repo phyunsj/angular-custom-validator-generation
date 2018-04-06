@@ -1,0 +1,9 @@
+export const SyncRetries = "Number of times initial SYNs for an active TCP connection attempt will be retransmitted.";
+export const SyncackRetries = "Number of times SYNACKs for a passive TCP connection attempt will be retransmitted. ";
+export const KeepaliveTime = "How often TCP sends out keepalive messages when keepalive is enabled";
+export const KeepaliveProbes = "How many keepalive probes TCP sends out, until it decides that the connection is broken. ";
+export const KeepaliveInterval = "How frequently the probes are send out. Multiplied by tcp_keepalive_probes it is time to kill not responding connection, after probes started.";
+export const Retries1 = "How many times to retry before deciding that something is wrong and it is necessary to report this suspection to network layer.";
+export const Retries2 = "How may times to retry before killing alive TCP connection. ";
+export const OrphanRetries = "How may times to retry before killing TCP connection, closed by our side. ";
+export const FinTimeout = "Time to hold socket in state FIN-WAIT-2, if it was closed by our side. Peer can be broken and never close its side, or even died unexpectedly. ";

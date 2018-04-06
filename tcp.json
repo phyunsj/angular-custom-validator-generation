@@ -1,0 +1,257 @@
+{
+	"TcpNode" : [
+	{ "id" : 1
+	 ,"name" : "US-NJ-YUY9IO"
+	,"SyncRetries" : 136
+	,"SyncackRetries" : 11
+	,"KeepaliveTime" : 19
+	,"KeepaliveProbes" : 39
+	,"KeepaliveInterval" : 223
+	,"Retries1" : 97
+	,"Retries2" : 49
+	,"OrphanRetries" : 47
+	,"FinTimeout" : 71
+	}
+	,
+	{ "id" : 2
+	 ,"name" : "US-NJ-UUU3S7"
+	,"SyncRetries" : 50
+	,"SyncackRetries" : 36
+	,"KeepaliveTime" : 15
+	,"KeepaliveProbes" : 26
+	,"KeepaliveInterval" : 102
+	,"Retries1" : 15
+	,"Retries2" : 32
+	,"OrphanRetries" : 26
+	,"FinTimeout" : 85
+	}
+	,
+	{ "id" : 3
+	 ,"name" : "US-NJ-9I6IYS"
+	,"SyncRetries" : 162
+	,"SyncackRetries" : 193
+	,"KeepaliveTime" : 5
+	,"KeepaliveProbes" : 36
+	,"KeepaliveInterval" : 59
+	,"Retries1" : 13
+	,"Retries2" : 85
+	,"OrphanRetries" : 81
+	,"FinTimeout" : 34
+	}
+	,
+	{ "id" : 4
+	 ,"name" : "US-NJ-UUSY76"
+	,"SyncRetries" : 140
+	,"SyncackRetries" : 198
+	,"KeepaliveTime" : 17
+	,"KeepaliveProbes" : 36
+	,"KeepaliveInterval" : 42
+	,"Retries1" : 4
+	,"Retries2" : 41
+	,"OrphanRetries" : 21
+	,"FinTimeout" : 18
+	}
+	,
+	{ "id" : 5
+	 ,"name" : "US-NJ-63YSI9"
+	,"SyncRetries" : 149
+	,"SyncackRetries" : 187
+	,"KeepaliveTime" : 23
+	,"KeepaliveProbes" : 2
+	,"KeepaliveInterval" : 225
+	,"Retries1" : 97
+	,"Retries2" : 6
+	,"OrphanRetries" : 23
+	,"FinTimeout" : 66
+	}
+	,
+	{ "id" : 6
+	 ,"name" : "US-NJ-USYY6O"
+	,"SyncRetries" : 46
+	,"SyncackRetries" : 210
+	,"KeepaliveTime" : 8
+	,"KeepaliveProbes" : 31
+	,"KeepaliveInterval" : 0
+	,"Retries1" : 74
+	,"Retries2" : 98
+	,"OrphanRetries" : 93
+	,"FinTimeout" : 135
+	}
+	,
+	{ "id" : 7
+	 ,"name" : "US-NJ-YYSO77"
+	,"SyncRetries" : 54
+	,"SyncackRetries" : 62
+	,"KeepaliveTime" : 5
+	,"KeepaliveProbes" : 2
+	,"KeepaliveInterval" : 154
+	,"Retries1" : 50
+	,"Retries2" : 44
+	,"OrphanRetries" : 24
+	,"FinTimeout" : 71
+	}
+	,
+	{ "id" : 8
+	 ,"name" : "US-NJ-ZYZ63I"
+	,"SyncRetries" : 114
+	,"SyncackRetries" : 158
+	,"KeepaliveTime" : 12
+	,"KeepaliveProbes" : 43
+	,"KeepaliveInterval" : 92
+	,"Retries1" : 70
+	,"Retries2" : 85
+	,"OrphanRetries" : 46
+	,"FinTimeout" : 30
+	}
+	,
+	{ "id" : 9
+	 ,"name" : "US-NJ-6YYYYN"
+	,"SyncRetries" : 191
+	,"SyncackRetries" : 114
+	,"KeepaliveTime" : 23
+	,"KeepaliveProbes" : 14
+	,"KeepaliveInterval" : 170
+	,"Retries1" : 67
+	,"Retries2" : 74
+	,"OrphanRetries" : 2
+	,"FinTimeout" : 131
+	}
+	]
+	,
+	"TcpStat" : [
+	{ "id" : 1
+	 ,"name" : "US-NJ-OYYIU3"
+	 ,"syncErr" : 0
+	,"ActiveConn" : 330
+	,"PassiveConn" : 80
+	,"FailedConn" : 593
+	,"ResetConn" : 764
+	,"EstablishedConn" : 332
+	,"RecvSegments" : 167
+	,"SentSegments" : 222
+	,"RetransmitSegments" : 131
+	,"BadSegments" : 904
+	,"ResetsSent" : 128
+	}
+	,
+	{ "id" : 2
+	 ,"name" : "US-NJ-O7ISO6"
+	 ,"syncErr" : 1
+	,"ActiveConn" : 151
+	,"PassiveConn" : 262
+	,"FailedConn" : 143
+	,"ResetConn" : 340
+	,"EstablishedConn" : 60
+	,"RecvSegments" : 888
+	,"SentSegments" : 581
+	,"RetransmitSegments" : 779
+	,"BadSegments" : 475
+	,"ResetsSent" : 240
+	}
+	,
+	{ "id" : 3
+	 ,"name" : "US-NJ-9S3ZO3"
+	 ,"syncErr" : 0
+	,"ActiveConn" : 502
+	,"PassiveConn" : 838
+	,"FailedConn" : 612
+	,"ResetConn" : 222
+	,"EstablishedConn" : 537
+	,"RecvSegments" : 321
+	,"SentSegments" : 433
+	,"RetransmitSegments" : 871
+	,"BadSegments" : 728
+	,"ResetsSent" : 437
+	}
+	,
+	{ "id" : 4
+	 ,"name" : "US-NJ-S6IYZO"
+	 ,"syncErr" : 1
+	,"ActiveConn" : 68
+	,"PassiveConn" : 303
+	,"FailedConn" : 125
+	,"ResetConn" : 93
+	,"EstablishedConn" : 890
+	,"RecvSegments" : 340
+	,"SentSegments" : 197
+	,"RetransmitSegments" : 253
+	,"BadSegments" : 972
+	,"ResetsSent" : 925
+	}
+	,
+	{ "id" : 5
+	 ,"name" : "US-NJ-YOYYYU"
+	 ,"syncErr" : 0
+	,"ActiveConn" : 778
+	,"PassiveConn" : 473
+	,"FailedConn" : 52
+	,"ResetConn" : 468
+	,"EstablishedConn" : 408
+	,"RecvSegments" : 183
+	,"SentSegments" : 157
+	,"RetransmitSegments" : 976
+	,"BadSegments" : 907
+	,"ResetsSent" : 172
+	}
+	,
+	{ "id" : 6
+	 ,"name" : "US-NJ-ONSZN6"
+	 ,"syncErr" : 1
+	,"ActiveConn" : 722
+	,"PassiveConn" : 430
+	,"FailedConn" : 496
+	,"ResetConn" : 703
+	,"EstablishedConn" : 183
+	,"RecvSegments" : 481
+	,"SentSegments" : 530
+	,"RetransmitSegments" : 627
+	,"BadSegments" : 618
+	,"ResetsSent" : 966
+	}
+	,
+	{ "id" : 7
+	 ,"name" : "US-NJ-NYSYSS"
+	 ,"syncErr" : 0
+	,"ActiveConn" : 142
+	,"PassiveConn" : 50
+	,"FailedConn" : 224
+	,"ResetConn" : 845
+	,"EstablishedConn" : 483
+	,"RecvSegments" : 22
+	,"SentSegments" : 920
+	,"RetransmitSegments" : 883
+	,"BadSegments" : 661
+	,"ResetsSent" : 187
+	}
+	,
+	{ "id" : 8
+	 ,"name" : "US-NJ-UUSU3I"
+	 ,"syncErr" : 0
+	,"ActiveConn" : 549
+	,"PassiveConn" : 880
+	,"FailedConn" : 523
+	,"ResetConn" : 641
+	,"EstablishedConn" : 540
+	,"RecvSegments" : 542
+	,"SentSegments" : 76
+	,"RetransmitSegments" : 89
+	,"BadSegments" : 268
+	,"ResetsSent" : 728
+	}
+	,
+	{ "id" : 9
+	 ,"name" : "US-NJ-6OINUN"
+	 ,"syncErr" : 0
+	,"ActiveConn" : 970
+	,"PassiveConn" : 551
+	,"FailedConn" : 140
+	,"ResetConn" : 57
+	,"EstablishedConn" : 968
+	,"RecvSegments" : 865
+	,"SentSegments" : 958
+	,"RetransmitSegments" : 312
+	,"BadSegments" : 800
+	,"ResetsSent" : 355
+	}
+	]
+}

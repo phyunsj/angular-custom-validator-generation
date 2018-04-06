@@ -1,0 +1,11 @@
+<div *tdLoading="'tcpstats'">
+  <md-list>
+    <h3 md-subheader>TCP Statistics</h3>
+    <md-list-item *ngFor="let node of nodes" routerLink="/statistics/{{node.id}}">
+      <md-icon md-list-icon  *ngIf="node.syncErr" color="warn">equalizer</md-icon>
+      <md-icon md-list-icon  *ngIf="!node.syncErr" color="primary">equalizer</md-icon>
+      <h4 md-line>{{node.name}}</h4>
+      <p md-line> ID  {{node.id}} </p>
+    </md-list-item>
+  </md-list>
+</div>

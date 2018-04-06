@@ -1,0 +1,72 @@
+<div  *tdLoading="'status'">
+
+  <md-list *ngIf="node">
+    <h3 md-subheader>Node Name: {{node.name}}</h3>
+
+
+    <md-list-item>
+      <md-icon md-list-icon *ngIf="!node.syncErr" color="primary">sync</md-icon>
+      <md-icon md-list-icon *ngIf="node.syncErr" color="warn">sync_problem</md-icon>
+      <h4 md-line *ngIf="!node.syncErr">Acceptable</h4>
+      <h4 md-line *ngIf="node.syncErr">Low Quality</h4>
+      <p md-line>Link Status</p>
+    </md-list-item>
+    <md-list-item>
+      <md-icon md-list-icon color="primary" >lock_open</md-icon>
+      <h4 md-line>{{node.ActiveConn}}</h4>
+      <p md-line>Active Connections Opennings</p>
+    </md-list-item>
+    <md-list-item>
+      <md-icon md-list-icon color="accent">lock_open</md-icon>
+      <h4 md-line>{{node.PassiveConn}}</h4>
+      <p md-line>Passive Connections Opennings</p>
+    </md-list-item>
+
+    <md-list-item>
+      <md-icon md-list-icon color="warn" >lock_outline</md-icon>
+      <h4 md-line>{{node.FailedConn}}</h4>
+      <p md-line>Failed Connections Opennings</p>
+    </md-list-item>
+
+    <md-list-item>
+      <md-icon md-list-icon>arrow_forward</md-icon>
+      <h4 md-line>{{node.ResetConn}}</h4>
+      <p md-line>Connection Resets Received</p>
+    </md-list-item>
+
+    <md-list-item>
+      <md-icon md-list-icon>arrow_forward</md-icon>
+      <h4 md-line>{{node.RecvSegments}}</h4>
+      <p md-line>Segments Received</p>
+    </md-list-item>
+
+    <md-list-item>
+      <md-icon md-list-icon>arrow_back</md-icon>
+      <h4 md-line>{{node.SentSegments}}</h4>
+      <p md-line>Segments send out</p>
+    </md-list-item>
+
+    <md-list-item>
+      <md-icon md-list-icon>arrow_back</md-icon>
+      <h4 md-line>{{node.RetransmitSegments}}</h4>
+      <p md-line>Segments Retransmitted</p>
+    </md-list-item>
+  
+    <md-list-item>
+      <md-icon md-list-icon>arrow_forward</md-icon>
+      <h4 md-line>{{node.BadSegments}}</h4>
+      <p md-line>Bad Segments Received</p>
+    </md-list-item>
+
+    <md-list-item>
+      <md-icon md-list-icon>arrow_back</md-icon>
+      <h4 md-line>{{node.ResetsSent}}</h4>
+      <p md-line>Resets Sent</p>
+    </md-list-item>
+  
+  </md-list>
+  
+  <button  *ngIf="node" md-fab class="mat-fab-bottom-right fixed mat-accent mat-mini-fab" routerLink="/nodes/{{node.id}}/edit"><md-icon>mode_edit</md-icon></button>
+
+
+</div>

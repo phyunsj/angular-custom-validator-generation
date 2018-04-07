@@ -133,7 +133,6 @@ https://material.io/icons/
 .blue-icon {
     color: blue;
 }
-/* Note: If you're using an SVG icon, you should make the class target the `<svg>` element */
 .blue-icon svg {
     fill: blue;
 }

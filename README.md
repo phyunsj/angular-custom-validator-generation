@@ -101,6 +101,8 @@ export class TcpSyncRetriesDirective implements Validator {
 
 #### 5. Additional Screens
 
+| Node 4 Statistics            |  Node List |
+:-------------------------:|:-------------------------:
 |![alt text](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_node_4.png "Node Statistic for Node 4") | ![alt text](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_list.png "Node Statistic for Node 4")|
 
 
@@ -110,7 +112,7 @@ export class TcpSyncRetriesDirective implements Validator {
 
 https://material.io/icons/
 
-1. user '_' for icon name
+1. insert '_' for icon name
 `<md-icon md-list-icon >`view_week`</md-icon>`
 2. (option 1) color "primary","warn" or "accent"
 `<md-icon md-list-icon color="primary">`view_week`</md-icon>`

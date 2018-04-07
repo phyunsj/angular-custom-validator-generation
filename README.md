@@ -9,7 +9,7 @@ More info on Linux TCP parameters : https://www.speedguide.net/articles/linux-tc
 
 #### `tcp.xlsx` contains TCP parameter-specific setting/status parameters.
 
-The following scripts `*.validator.ts` and `tcp.json` for **json_server**.
+The following scripts generate `*.validator.ts` (and more `ts`) and `tcp.json` for **json_server**.
 - tsTemplate.py
 - fixedLabels.py
 - generateValidator.py

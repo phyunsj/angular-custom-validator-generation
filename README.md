@@ -42,7 +42,7 @@ http://localhost:4200  => access network node monitor
 
 
 
-#### 1. Validator Factory in tcp.validator.ts
+### 1. Validator Factory in tcp.validator.ts
 
 ```
 function validateTcpIntFactory( minNum: number, maxNum : number, paramDisplayName : string ) : ValidatorFn {
@@ -77,7 +77,7 @@ function validateTcpIntFactory( minNum: number, maxNum : number, paramDisplayNam
 }
 ```
 
-#### 2. Validator Directive in tcp.validator.ts
+### 2. Validator Directive in tcp.validator.ts
 
 ```
 @Directive({
@@ -97,7 +97,7 @@ export class TcpSyncRetriesDirective implements Validator {
 }
 ```
 
-#### 3. src/app/node-form/node-form-components.html
+### 3. src/app/node-form/node-form-components.html
 ```
 <md-input-container>
           <input name="SyncRetries" mdInput type="number" placeholder="Sync Retries (secs)" 
@@ -107,11 +107,11 @@ export class TcpSyncRetriesDirective implements Validator {
     </md-error>          
 </md-input-container>
 ```
-#### 4. Form Screen
+### 4. Form Screen
 
 ![alt text](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_node_form_validation.png "Node Form Error Page")
 
-#### 5. Additional Screens
+### 5. Additional Screens
 
 ![alt text-1](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_node_4.png "Node Statistic for Node 4")  ![alt text-2](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_list.png "Node Statistic for Node 4")
 

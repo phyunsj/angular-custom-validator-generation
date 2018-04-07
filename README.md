@@ -1,7 +1,7 @@
 
 # Angular Custom Validator Generation
 
-## Angular Custom Validator with Template-Drive Form
+## Angular Custom Validator with Template-Driven Form
 
 Use Linux TCP parameters to demonstrate angular-custome-validator generation (`*.validator.ts` )  
 
@@ -99,7 +99,7 @@ export class TcpSyncRetriesDirective implements Validator {
 ```
 #### 4. Form Screen
 
-![alt text](https://github.com/phyunsj/angular-custome-validator-generation/blob/master/monitor_node_form_validation.png "Node Form Error Page")
+![alt text](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_node_form_validation.png "Node Form Error Page")
 
 #### 5. Additional Screens
 

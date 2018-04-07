@@ -42,7 +42,7 @@ http://localhost:4200  => access network node monitor
 
 
 
-### 1. Validator Factory in tcp.validator.ts
+### 1. Validator Factory in tcp.validator.ts (auto-generated)
 
 ```
 function validateTcpIntFactory( minNum: number, maxNum : number, paramDisplayName : string ) : ValidatorFn {
@@ -77,7 +77,7 @@ function validateTcpIntFactory( minNum: number, maxNum : number, paramDisplayNam
 }
 ```
 
-### 2. Validator Directive in tcp.validator.ts
+### 2. Validator Directive in tcp.validator.ts (auto-generated)
 
 ```
 @Directive({

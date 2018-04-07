@@ -75,16 +75,13 @@ function validateTcpIntFactory( minNum: number, maxNum : number, paramDisplayNam
   ]
 })
 export class TcpSyncRetriesDirective implements Validator {
-  validator: ValidatorFn;
-  
+  validator: ValidatorFn;  
   constructor() {
     this.validator = validateTcpIntFactory( 0, 255, "Sync Retries" );
-  }
-  
+  }  
   validate(c: FormControl) {
     return this.validator(c);
   }
-  
 }
 ```
 
@@ -104,12 +101,14 @@ export class TcpSyncRetriesDirective implements Validator {
 
 #### 5. Additional Screens
 
-![alt text](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_node_4.png "Node Statistic for Node 4")
+|![alt text](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_node_4.png "Node Statistic for Node 4") | ![alt text](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_list.png "Node Statistic for Node 4")|
 
 
 
 
-#### Material Icon https://material.io/icons/
+## Material Icon 
+
+https://material.io/icons/
 
 1. user '_' for icon name
 `<md-icon md-list-icon >`view_week`</md-icon>`

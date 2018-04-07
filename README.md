@@ -96,6 +96,21 @@ export class TcpSyncRetriesDirective implements Validator {
   }
 }
 ```
+The following **Directives** are auto-generated.
+```
+import { 
+    TcpSyncRetriesDirective, 
+    TcpSyncackRetriesDirective,
+    TcpKeepaliveTimeDirective,
+    TcpKeepaliveProbesDirective,
+    TcpKeepaliveIntervalDirective,
+    TcpRetries1Directive,
+    TcpRetries2Directive,
+    TcpOrphanRetriesDirective,
+    TcpFinTimeoutDirective
+
+    } from './validators/tcp.validator';
+```
 
 ### 3. src/app/node-form/node-form-components.html
 ```

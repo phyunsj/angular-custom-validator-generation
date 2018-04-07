@@ -101,9 +101,8 @@ export class TcpSyncRetriesDirective implements Validator {
 
 #### 5. Additional Screens
 
-| Node 4 Statistics            |  Node List |
-:-------------------------:|:-------------------------:
-|![alt text](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_node_4.png "Node Statistic for Node 4") | ![alt text](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_list.png "Node Statistic for Node 4")|
+ Node 4 Statistics            |  Node List 
+:-------------------------:|:-------------------------:|![alt text](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_node_4.png "Node Statistic for Node 4") | ![alt text](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_list.png "Node Statistic for Node 4")
 
 
 

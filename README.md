@@ -124,11 +124,11 @@ import {
 ```
 ### 4. Form Screen
 
-![alt text](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_node_form_validation.png "Node Form Error Page")
+<img class="two" src="https://github.com/phyunsj/angular-custom-validator-generation/blob/master/form_validation.gif" width="50%" height="50%">
 
 ### 5. Additional Screens
 
-![alt text-1](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_node_4.png "Node Statistic for Node 4")  
+![alt text-1](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_node_4.png "Node Statistic for Node 4")
 
 ![alt text-2](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_list.png "Node Statistic for Node 4")
 

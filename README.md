@@ -91,10 +91,11 @@ export class TcpSyncRetriesDirective implements Validator {
 #### 3. src/app/node-form/node-form-components.html
 ```
 <md-input-container>
-          <input name="SyncRetries" mdInput type="number" placeholder="Sync Retries (secs)"  [(ngModel)]="node.SyncRetries" TcpSyncRetries required #SyncRetries="ngModel">
-          <md-error *ngIf="SyncRetries.errors">
+          <input name="SyncRetries" mdInput type="number" placeholder="Sync Retries (secs)" 
+          [(ngModel)]="node.SyncRetries" TcpSyncRetries required #SyncRetries="ngModel">
+   <md-error *ngIf="SyncRetries.errors">
             {{ SyncRetries.errors.Tcp.message }}
-          </md-error>          
+    </md-error>          
 </md-input-container>
 ```
 #### 4. Form Screen
@@ -103,7 +104,7 @@ export class TcpSyncRetriesDirective implements Validator {
 
 #### 5. Additional Screens
 
-
+![alt text](https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_node_4.png "Node Statistic for Node 4")
 
 
 

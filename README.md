@@ -30,6 +30,18 @@ Started with "Angular In Action" Ch.9 Example https://github.com/angular-in-acti
 
 More on _Angular In Action_ : https://www.manning.com/books/angular-in-action
 
+### Project Start-up
+
+> npm run api 
+
+http://localhost:3000  => json_server --watch tcp.json
+
+> ng serve 
+
+http://localhost:4200  => access network node monitor 
+
+
+
 #### 1. Validator Factory in tcp.validator.ts
 
 ```

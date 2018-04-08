@@ -28,7 +28,7 @@ The following files are generated out of `tcp.xlsx`.
 
 Started with "Angular In Action" Ch.9 Example https://github.com/angular-in-action/invoice (Credit to Author : **Jeremy Wilken**)
 
-More on _Angular In Action_ : https://www.manning.com/books/angular-in-action
+**YES, I PURCHASED THIS BOOK (More on _Angular In Action_ https://www.manning.com/books/angular-in-action).** My focus is to generate custom validators based on form entries (number for this demo). No polling. 
 
 ### Project Start-up
 

@@ -139,7 +139,7 @@ import {
 
 https://material.io/icons/
 
-1. insert '_' for icon name
+1.  icon name
 `<md-icon md-list-icon >`view_week`</md-icon>`
 2. (option 1) color "primary","warn" or "accent"
 `<md-icon md-list-icon color="primary">`view_week`</md-icon>`

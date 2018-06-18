@@ -126,7 +126,7 @@ import {
 
 
 <p align="center">
-<img src="https://github.com/phyunsj/angular-custom-validator-generation/blob/master/form_validation.gif" width="600px"/>
+<img src="https://github.com/phyunsj/angular-custom-validator-generation/blob/master/form_validation.gif" width="500px"/>
 </p>
 
 
@@ -134,11 +134,11 @@ import {
 
 
 <p align="center">
-<img src="https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_node_4.png" width="600px"/>
+<img src="https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_node_4.png" width="400px"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_list.png" width="600px"/>
+<img src="https://github.com/phyunsj/angular-custom-validator-generation/blob/master/monitor_statistics_list.png" width="400px"/>
 </p>
 
 
